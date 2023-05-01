@@ -18,7 +18,7 @@ public class CountOdds {
 /* I changed CountEvens to CountOdds */
    public static void main(String[] args) {
       Scanner scnr = new Scanner(System.in);
-      CountEvens labObject = new CountOdds();
+      CountOdds labObject = new CountOdds();
 
       int num1;
       int num2;
