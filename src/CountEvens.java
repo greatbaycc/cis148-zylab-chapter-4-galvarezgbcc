@@ -6,13 +6,13 @@ public class CountOdds {
    public static int countOdds(int n1, int n2, int n3, int n4){
       int count = 0;
       if(n1 % 2 == 1)
-         count++;
+         count += 1;
       if(n2 % 2 == 1)
-         count++;
+         count += 1;
       if(n3 % 2 == 1)
-         count++;
+         count += 1;
       if(n4 % 2 == 1)
-         count++;
+         count += 1;
       return count;
    }
 /* I changed CountEvens to CountOdds */
