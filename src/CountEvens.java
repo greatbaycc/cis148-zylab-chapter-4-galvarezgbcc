@@ -4,7 +4,7 @@ public class CountOdds {
 
    /* It counts odds now */
    public static int countOdds(int n1, int n2, int n3, int n4){
-      int count = 0;
+      int count = 0; /* Changed the code to += so that the odd number is recognized */
       if(n1 % 2 == 1)
          count += 1;
       if(n2 % 2 == 1)
